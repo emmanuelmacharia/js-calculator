@@ -1,11 +1,11 @@
-.App {
-  text-align: center;
+body{
+  background-image: -webkit-linear-gradient(top left, #5cc8ff 0%, #d63c6b 100%);
+  background-image: linear-gradient(to bottom right, #5cc8ff 0%, #d63c6b 100%);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  margin-top: 25vh;
 }
 
 .App-header {
@@ -33,8 +33,37 @@
 }
 
 footer {
-  background-color: #282c34;
+  background-color:#282c34 ;
+  /* background-color: rgb(108, 117, 125); */
   color: white;
-  position: static;
+  position: fixed;
   width: 100%;
+  bottom: 0;
+  height: 19vh;
+}
+
+.calculator{
+  justify-content: center;
+  height: 100vh;
+}
+
+.display{
+  height: 75px;
+  border: 3px solid rgb(108, 117, 125);
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.btn {
+  padding: 2em;
+}
+
+.main {
+  width: 50%;
+  margin: 0 20px 10% 20px;
+}
+
+#clear, #divide{
+  border-radius: 0;
 }
